@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.7"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Simulador Gráfico en C++ de Alarma Domiciliaria: Archivo de código fuente doorview.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Simulador Gráfico en C++ de Alarma Domiciliaria
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.7 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">doorview.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="doorview_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef DOORVIEW_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define DOORVIEW_H</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;QGraphicsItemGroup&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;QGraphicsRectItem&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;QGraphicsPolygonItem&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;QGraphicsSceneMouseEvent&gt;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &quot;<a class="code" href="door_8h.html">door.h</a>&quot;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="magneticsensorview_8h.html">magneticsensorview.h</a>&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="class_door_view.html">   12</a></span><span class="keyword">class </span><a class="code hl_class" href="class_door_view.html">DoorView</a> : <span class="keyword">public</span> QGraphicsItemGroup</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>{</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="class_door_view.html">DoorView</a>(<span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y, <span class="keywordtype">int</span> angle, <a class="code hl_class" href="class_magnetic_sensor_view.html">MagneticSensorView</a> * msView);</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_door_view.html#a58e7f5584a380e66d213dc9ccbff611a">setDoorModel</a>(<a class="code hl_class" href="class_door.html">Door</a> * <a class="code hl_variable" href="class_door_view.html#aabd9f36fbe917f3511b418fef758c7e5">model</a>);</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_door_view.html#a30bb06802a33fd78d61ef6f4a87f3245">setOpen</a>();</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_door_view.html#a42588537201406b2d46fe9bb93949dd6">setClose</a>();</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_door_view.html#a9ca2aa9585550b49e08cf32215156e10">mousePressEvent</a>(QGraphicsSceneMouseEvent *);</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <a class="code hl_function" href="class_door_view.html#a830c88121471de59565a4c43ba2ffe28">~DoorView</a>();</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_door_view.html#ad059eb585444fc7ce745fed7d42a7f53">installMagneticSensor</a>(<a class="code hl_class" href="class_magnetic_sensor_view.html">MagneticSensorView</a> &amp; msView);</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_door_view.html#abc2cab077f0cfd699b1545c334ace0be">makeDoorView</a>();</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="class_door_view.html#aabd9f36fbe917f3511b418fef758c7e5">   24</a></span>    <a class="code hl_class" href="class_door.html">Door</a> * <a class="code hl_variable" href="class_door_view.html#aabd9f36fbe917f3511b418fef758c7e5">model</a>;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="class_door_view.html#a1a9a3015961013de06fd58da50c8d6d7">   25</a></span>    QGraphicsRectItem * <a class="code hl_variable" href="class_door_view.html#a1a9a3015961013de06fd58da50c8d6d7">doorPanel</a>;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="class_door_view.html#a523ff979137c3779916924b3fbe0cb9c">   26</a></span>    QGraphicsPolygonItem * <a class="code hl_variable" href="class_door_view.html#a523ff979137c3779916924b3fbe0cb9c">switchPillar</a>;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="class_door_view.html#a3ea7f0eb83bb98e7a542518a15e5c590">   27</a></span>    QGraphicsRectItem * <a class="code hl_variable" href="class_door_view.html#a3ea7f0eb83bb98e7a542518a15e5c590">magnet</a>;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>};</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#endif </span><span class="comment">// DOORVIEW_H</span></div>
+<div class="ttc" id="aclass_door_html"><div class="ttname"><a href="class_door.html">Door</a></div><div class="ttdef"><b>Definition</b> door.h:8</div></div>
+<div class="ttc" id="aclass_door_view_html"><div class="ttname"><a href="class_door_view.html">DoorView</a></div><div class="ttdef"><b>Definition</b> doorview.h:13</div></div>
+<div class="ttc" id="aclass_door_view_html_a1a9a3015961013de06fd58da50c8d6d7"><div class="ttname"><a href="class_door_view.html#a1a9a3015961013de06fd58da50c8d6d7">DoorView::doorPanel</a></div><div class="ttdeci">QGraphicsRectItem * doorPanel</div><div class="ttdef"><b>Definition</b> doorview.h:25</div></div>
+<div class="ttc" id="aclass_door_view_html_a30bb06802a33fd78d61ef6f4a87f3245"><div class="ttname"><a href="class_door_view.html#a30bb06802a33fd78d61ef6f4a87f3245">DoorView::setOpen</a></div><div class="ttdeci">void setOpen()</div><div class="ttdef"><b>Definition</b> doorview.cpp:63</div></div>
+<div class="ttc" id="aclass_door_view_html_a3ea7f0eb83bb98e7a542518a15e5c590"><div class="ttname"><a href="class_door_view.html#a3ea7f0eb83bb98e7a542518a15e5c590">DoorView::magnet</a></div><div class="ttdeci">QGraphicsRectItem * magnet</div><div class="ttdef"><b>Definition</b> doorview.h:27</div></div>
+<div class="ttc" id="aclass_door_view_html_a42588537201406b2d46fe9bb93949dd6"><div class="ttname"><a href="class_door_view.html#a42588537201406b2d46fe9bb93949dd6">DoorView::setClose</a></div><div class="ttdeci">void setClose()</div><div class="ttdef"><b>Definition</b> doorview.cpp:67</div></div>
+<div class="ttc" id="aclass_door_view_html_a523ff979137c3779916924b3fbe0cb9c"><div class="ttname"><a href="class_door_view.html#a523ff979137c3779916924b3fbe0cb9c">DoorView::switchPillar</a></div><div class="ttdeci">QGraphicsPolygonItem * switchPillar</div><div class="ttdef"><b>Definition</b> doorview.h:26</div></div>
+<div class="ttc" id="aclass_door_view_html_a58e7f5584a380e66d213dc9ccbff611a"><div class="ttname"><a href="class_door_view.html#a58e7f5584a380e66d213dc9ccbff611a">DoorView::setDoorModel</a></div><div class="ttdeci">void setDoorModel(Door *model)</div><div class="ttdef"><b>Definition</b> doorview.cpp:44</div></div>
+<div class="ttc" id="aclass_door_view_html_a830c88121471de59565a4c43ba2ffe28"><div class="ttname"><a href="class_door_view.html#a830c88121471de59565a4c43ba2ffe28">DoorView::~DoorView</a></div><div class="ttdeci">~DoorView()</div><div class="ttdef"><b>Definition</b> doorview.cpp:76</div></div>
+<div class="ttc" id="aclass_door_view_html_a9ca2aa9585550b49e08cf32215156e10"><div class="ttname"><a href="class_door_view.html#a9ca2aa9585550b49e08cf32215156e10">DoorView::mousePressEvent</a></div><div class="ttdeci">virtual void mousePressEvent(QGraphicsSceneMouseEvent *)</div><div class="ttdef"><b>Definition</b> doorview.cpp:72</div></div>
+<div class="ttc" id="aclass_door_view_html_aabd9f36fbe917f3511b418fef758c7e5"><div class="ttname"><a href="class_door_view.html#aabd9f36fbe917f3511b418fef758c7e5">DoorView::model</a></div><div class="ttdeci">Door * model</div><div class="ttdef"><b>Definition</b> doorview.h:24</div></div>
+<div class="ttc" id="aclass_door_view_html_abc2cab077f0cfd699b1545c334ace0be"><div class="ttname"><a href="class_door_view.html#abc2cab077f0cfd699b1545c334ace0be">DoorView::makeDoorView</a></div><div class="ttdeci">void makeDoorView()</div><div class="ttdef"><b>Definition</b> doorview.cpp:15</div></div>
+<div class="ttc" id="aclass_door_view_html_ad059eb585444fc7ce745fed7d42a7f53"><div class="ttname"><a href="class_door_view.html#ad059eb585444fc7ce745fed7d42a7f53">DoorView::installMagneticSensor</a></div><div class="ttdeci">void installMagneticSensor(MagneticSensorView &amp;msView)</div><div class="ttdef"><b>Definition</b> doorview.cpp:48</div></div>
+<div class="ttc" id="aclass_magnetic_sensor_view_html"><div class="ttname"><a href="class_magnetic_sensor_view.html">MagneticSensorView</a></div><div class="ttdef"><b>Definition</b> magneticsensorview.h:7</div></div>
+<div class="ttc" id="adoor_8h_html"><div class="ttname"><a href="door_8h.html">door.h</a></div></div>
+<div class="ttc" id="amagneticsensorview_8h_html"><div class="ttname"><a href="magneticsensorview_8h.html">magneticsensorview.h</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.7
+</small></address>
+</body>
+</html>

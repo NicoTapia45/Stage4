@@ -1,0 +1,12 @@
+<map id="WindowView::WindowView" name="WindowView::WindowView">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,72,183,99"/>
+<area shape="rect" id="Node000002" href="$class_magnetic_sensor_view.html#a02ee42e106e5647ff1abb8d7dc965e27" title=" " alt="" coords="488,5,631,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="143,69,230,49,357,34,473,27,473,32,358,40,231,55,144,74"/>
+<area shape="rect" id="Node000003" href="$class_window_view.html#a53f0f8a3b2d70717d7cde5e57caf3d82" title=" " alt="" coords="240,64,431,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="183,83,225,83,225,88,183,88"/>
+<area shape="rect" id="Node000005" href="$class_window_view.html#a334e3ef73a5f44bfbe97cdf093d52995" title=" " alt="" coords="231,131,440,157"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="153,97,231,116,264,124,262,129,230,121,151,102"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="419,61,473,47,474,52,420,66"/>
+<area shape="rect" id="Node000004" href="$class_magnetic_sensor_view.html#a0c3d7ba43abf57a057d86ca8ea84c99b" title=" " alt="" coords="488,72,631,115"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="431,86,473,88,473,93,431,91"/>
+</map>

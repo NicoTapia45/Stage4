@@ -1,0 +1,15 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,81,55,108"/>
+<area shape="rect" id="Node000002" href="$class_house_window.html#a1e3b78a84ec4197739898e442ee1e1a6" title=" " alt="" coords="103,5,311,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="46,79,71,59,101,42,120,34,121,39,104,46,74,64,49,83"/>
+<area shape="rect" id="Node000003" href="$class_central.html#ab51b1989184be843d2b5dc2a0bde3536" title=" " alt="" coords="128,56,286,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="55,89,113,80,114,85,56,94"/>
+<area shape="rect" id="Node000004" href="$class_magnetic_sensor.html#a02134a614efed87e4c3b5954a63085c9" title=" " alt="" coords="122,107,292,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="56,95,108,103,107,108,55,101"/>
+<area shape="rect" id="Node000005" href="$class_house_window.html#afeb317a6f385d9561eb07713d456b9bd" title=" " alt="" coords="121,157,293,184"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="49,107,74,126,104,143,121,150,120,155,101,148,71,130,46,111"/>
+<area shape="rect" id="Node000006" href="$class_central.html#a5db18ec0ac455c386758ff4071bdd510" title=" " alt="" coords="378,132,526,159"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="293,159,363,152,363,157,293,164"/>
+<area shape="rect" id="Node000007" href="$class_house_window.html#ab1607fbbb564a55a77d5583a740a3306" title=" " alt="" coords="359,183,544,209"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="293,177,345,182,344,188,293,182"/>
+</map>

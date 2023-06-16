@@ -1,0 +1,7 @@
+<map id="Central::checkZones" name="Central::checkZones">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,146,57"/>
+<area shape="rect" id="Node000002" href="$class_central.html#a6d6decbdb1c66b9b2b34626f93d52b58" title=" " alt="" coords="194,5,367,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="146,33,178,29,179,34,146,38"/>
+<area shape="rect" id="Node000003" href="$class_central.html#a5db18ec0ac455c386758ff4071bdd510" title=" " alt="" coords="206,56,355,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="146,50,192,56,191,61,146,55"/>
+</map>

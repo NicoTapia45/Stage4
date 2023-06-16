@@ -1,0 +1,7 @@
+<map id="WindowView::installMagneticSensor" name="WindowView::installMagneticSensor">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,196,81"/>
+<area shape="rect" id="Node000002" href="$class_magnetic_sensor_view.html#a02ee42e106e5647ff1abb8d7dc965e27" title=" " alt="" coords="244,5,387,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="196,43,229,37,230,43,197,48"/>
+<area shape="rect" id="Node000003" href="$class_magnetic_sensor_view.html#a0c3d7ba43abf57a057d86ca8ea84c99b" title=" " alt="" coords="244,72,387,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="197,72,230,77,229,83,196,77"/>
+</map>

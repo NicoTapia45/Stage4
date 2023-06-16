@@ -1,0 +1,12 @@
+<map id="DoorView::DoorView" name="DoorView::DoorView">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,72,145,99"/>
+<area shape="rect" id="Node000002" href="$class_magnetic_sensor_view.html#a02ee42e106e5647ff1abb8d7dc965e27" title=" " alt="" coords="412,5,555,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,69,192,49,298,35,397,27,397,32,299,40,193,55,118,74"/>
+<area shape="rect" id="Node000003" href="$class_door_view.html#ad059eb585444fc7ce745fed7d42a7f53" title=" " alt="" coords="193,64,364,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="145,83,178,83,178,88,145,88"/>
+<area shape="rect" id="Node000005" href="$class_door_view.html#abc2cab077f0cfd699b1545c334ace0be" title=" " alt="" coords="193,131,364,157"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="125,97,216,123,215,129,123,102"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="354,61,397,49,398,54,356,66"/>
+<area shape="rect" id="Node000004" href="$class_magnetic_sensor_view.html#a0c3d7ba43abf57a057d86ca8ea84c99b" title=" " alt="" coords="412,72,555,115"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="365,86,397,87,397,93,364,91"/>
+</map>

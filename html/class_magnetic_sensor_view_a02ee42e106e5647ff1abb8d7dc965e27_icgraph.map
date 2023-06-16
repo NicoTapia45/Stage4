@@ -1,0 +1,13 @@
+<map id="MagneticSensorView::getMagnetView" name="MagneticSensorView::getMagnetView">
+<area shape="rect" id="Node000001" title=" " alt="" coords="469,66,612,109"/>
+<area shape="rect" id="Node000002" href="$class_door_view.html#a42fcff1365167f13a52f96d4cde8d01d" title=" " alt="" coords="24,11,164,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="497,60,461,39,420,23,353,11,285,8,220,10,164,16,164,11,220,5,285,3,354,6,422,18,463,34,500,55"/>
+<area shape="rect" id="Node000003" href="$class_door_view.html#ad059eb585444fc7ce745fed7d42a7f53" title=" " alt="" coords="240,33,412,75"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="454,77,411,70,412,65,455,71"/>
+<area shape="rect" id="Node000004" href="$class_window_view.html#a53f0f8a3b2d70717d7cde5e57caf3d82" title=" " alt="" coords="231,99,421,142"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="455,103,422,109,421,103,454,98"/>
+<area shape="rect" id="Node000005" href="$class_window_view.html#afc6603d9a903376770f09cee09c9f3e6" title=" " alt="" coords="5,137,183,163"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="500,120,463,141,422,157,360,168,298,172,237,171,183,166,183,161,238,165,298,167,360,163,420,151,461,136,497,115"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="225,44,164,36,165,31,226,39"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="217,137,183,141,183,136,216,132"/>
+</map>

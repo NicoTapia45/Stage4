@@ -1,0 +1,10 @@
+<map id="Central::getLabel" name="Central::getLabel">
+<area shape="rect" id="Node000001" title=" " alt="" coords="494,47,613,73"/>
+<area shape="rect" id="Node000002" href="$class_house_window.html#a18dbdb869155c26a90b5b89a535d31bd" title=" " alt="" coords="249,5,446,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="479,51,446,45,447,40,480,45"/>
+<area shape="rect" id="Node000004" href="$class_house_window.html#aa0728cc945da23a28c8e89b1a4041275" title=" " alt="" coords="259,72,436,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="480,75,437,82,436,76,479,69"/>
+<area shape="rect" id="Node000003" href="$class_house_window.html#a8e5eeed0472a24b8554624766fc31e57" title=" " alt="" coords="5,47,201,73"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="234,45,202,49,201,44,233,39"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="243,82,201,76,202,71,244,77"/>
+</map>

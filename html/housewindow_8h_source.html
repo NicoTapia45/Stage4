@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.7"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Simulador Gráfico en C++ de Alarma Domiciliaria: Archivo de código fuente housewindow.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Simulador Gráfico en C++ de Alarma Domiciliaria
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.7 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">housewindow.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="housewindow_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef HOUSEWINDOW_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define HOUSEWINDOW_H</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;QMainWindow&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;QGraphicsScene&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;QGraphicsItemGroup&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;QPushButton&gt;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;QLabel&gt;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &quot;<a class="code" href="central_8h.html">central.h</a>&quot;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>QT_BEGIN_NAMESPACE</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="namespace_ui.html">   12</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_ui.html">Ui</a> { <span class="keyword">class </span><a class="code hl_class" href="class_house_window.html">HouseWindow</a>; }</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>QT_END_NAMESPACE</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="class_house_window.html">   15</a></span><span class="keyword">class </span><a class="code hl_class" href="class_house_window.html">HouseWindow</a> : <span class="keyword">public</span> QMainWindow</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>{</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    Q_OBJECT</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <a class="code hl_class" href="class_house_window.html">HouseWindow</a>(QWidget *parent = <span class="keyword">nullptr</span>, <a class="code hl_class" href="class_central.html">Central</a> *<a class="code hl_variable" href="class_house_window.html#aab18ef3e5e91db51c3c834bb402d7900">central</a> = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_house_window.html#a1e3b78a84ec4197739898e442ee1e1a6">addHouseHollow</a>(QGraphicsItemGroup * ); <span class="comment">// doors and windows</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <a class="code hl_function" href="class_house_window.html#ab9f26c02c1741e7b9faae078aaef0826">~HouseWindow</a>();</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_house_window.html#afeb317a6f385d9561eb07713d456b9bd">setCentral</a>(<a class="code hl_class" href="class_central.html">Central</a> *<a class="code hl_variable" href="class_house_window.html#aab18ef3e5e91db51c3c834bb402d7900">central</a>);</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keyword">private</span> slots:</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_house_window.html#a18dbdb869155c26a90b5b89a535d31bd">activateSensorClicked</a>();</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_house_window.html#aa0728cc945da23a28c8e89b1a4041275">desactivateSensorClicked</a>();</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_house_window.html#ab1607fbbb564a55a77d5583a740a3306">updateAlarm</a>(QString newLabel);</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="class_house_window.html#a92c373720bc7a90e80975f7ee46f9515">   31</a></span>    Ui::HouseWindow *<a class="code hl_variable" href="class_house_window.html#a92c373720bc7a90e80975f7ee46f9515">ui</a>;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="class_house_window.html#aab18ef3e5e91db51c3c834bb402d7900">   32</a></span>    <a class="code hl_class" href="class_central.html">Central</a> *<a class="code hl_variable" href="class_house_window.html#aab18ef3e5e91db51c3c834bb402d7900">central</a>;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="class_house_window.html#a0b126ea20636e28b12b27a898c30e63b">   33</a></span>    QGraphicsScene <a class="code hl_variable" href="class_house_window.html#a0b126ea20636e28b12b27a898c30e63b">interiorScene</a>;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="class_house_window.html#a8c723b8b6acf68d84164c4867042d0d4">   34</a></span>    QPushButton *<a class="code hl_variable" href="class_house_window.html#a8c723b8b6acf68d84164c4867042d0d4">btnPerimeter</a>;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="class_house_window.html#a1b123b5af28b78d14629db94af3ee2b3">   35</a></span>    QPushButton *<a class="code hl_variable" href="class_house_window.html#a1b123b5af28b78d14629db94af3ee2b3">btnDisarm</a>;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="class_house_window.html#a1bde5e6794136ab147967c9463fcb641">   36</a></span>    QLabel *<a class="code hl_variable" href="class_house_window.html#a1bde5e6794136ab147967c9463fcb641">Display</a>;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="class_house_window.html#a042d461e3706d0687509872efe218997">   37</a></span>    QLabel *<a class="code hl_variable" href="class_house_window.html#a042d461e3706d0687509872efe218997">Alarm</a>;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>};</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="preprocessor">#endif </span><span class="comment">// HOUSEWINDOW_H</span></div>
+<div class="ttc" id="acentral_8h_html"><div class="ttname"><a href="central_8h.html">central.h</a></div></div>
+<div class="ttc" id="aclass_central_html"><div class="ttname"><a href="class_central.html">Central</a></div><div class="ttdef"><b>Definition</b> central.h:13</div></div>
+<div class="ttc" id="aclass_house_window_html"><div class="ttname"><a href="class_house_window.html">HouseWindow</a></div><div class="ttdef"><b>Definition</b> housewindow.h:16</div></div>
+<div class="ttc" id="aclass_house_window_html_a042d461e3706d0687509872efe218997"><div class="ttname"><a href="class_house_window.html#a042d461e3706d0687509872efe218997">HouseWindow::Alarm</a></div><div class="ttdeci">QLabel * Alarm</div><div class="ttdef"><b>Definition</b> housewindow.h:37</div></div>
+<div class="ttc" id="aclass_house_window_html_a0b126ea20636e28b12b27a898c30e63b"><div class="ttname"><a href="class_house_window.html#a0b126ea20636e28b12b27a898c30e63b">HouseWindow::interiorScene</a></div><div class="ttdeci">QGraphicsScene interiorScene</div><div class="ttdef"><b>Definition</b> housewindow.h:33</div></div>
+<div class="ttc" id="aclass_house_window_html_a18dbdb869155c26a90b5b89a535d31bd"><div class="ttname"><a href="class_house_window.html#a18dbdb869155c26a90b5b89a535d31bd">HouseWindow::activateSensorClicked</a></div><div class="ttdeci">void activateSensorClicked()</div><div class="ttdef"><b>Definition</b> housewindow.cpp:50</div></div>
+<div class="ttc" id="aclass_house_window_html_a1b123b5af28b78d14629db94af3ee2b3"><div class="ttname"><a href="class_house_window.html#a1b123b5af28b78d14629db94af3ee2b3">HouseWindow::btnDisarm</a></div><div class="ttdeci">QPushButton * btnDisarm</div><div class="ttdef"><b>Definition</b> housewindow.h:35</div></div>
+<div class="ttc" id="aclass_house_window_html_a1bde5e6794136ab147967c9463fcb641"><div class="ttname"><a href="class_house_window.html#a1bde5e6794136ab147967c9463fcb641">HouseWindow::Display</a></div><div class="ttdeci">QLabel * Display</div><div class="ttdef"><b>Definition</b> housewindow.h:36</div></div>
+<div class="ttc" id="aclass_house_window_html_a1e3b78a84ec4197739898e442ee1e1a6"><div class="ttname"><a href="class_house_window.html#a1e3b78a84ec4197739898e442ee1e1a6">HouseWindow::addHouseHollow</a></div><div class="ttdeci">void addHouseHollow(QGraphicsItemGroup *)</div><div class="ttdef"><b>Definition</b> housewindow.cpp:40</div></div>
+<div class="ttc" id="aclass_house_window_html_a8c723b8b6acf68d84164c4867042d0d4"><div class="ttname"><a href="class_house_window.html#a8c723b8b6acf68d84164c4867042d0d4">HouseWindow::btnPerimeter</a></div><div class="ttdeci">QPushButton * btnPerimeter</div><div class="ttdef"><b>Definition</b> housewindow.h:34</div></div>
+<div class="ttc" id="aclass_house_window_html_a92c373720bc7a90e80975f7ee46f9515"><div class="ttname"><a href="class_house_window.html#a92c373720bc7a90e80975f7ee46f9515">HouseWindow::ui</a></div><div class="ttdeci">Ui::HouseWindow * ui</div><div class="ttdef"><b>Definition</b> housewindow.h:31</div></div>
+<div class="ttc" id="aclass_house_window_html_aa0728cc945da23a28c8e89b1a4041275"><div class="ttname"><a href="class_house_window.html#aa0728cc945da23a28c8e89b1a4041275">HouseWindow::desactivateSensorClicked</a></div><div class="ttdeci">void desactivateSensorClicked()</div><div class="ttdef"><b>Definition</b> housewindow.cpp:64</div></div>
+<div class="ttc" id="aclass_house_window_html_aab18ef3e5e91db51c3c834bb402d7900"><div class="ttname"><a href="class_house_window.html#aab18ef3e5e91db51c3c834bb402d7900">HouseWindow::central</a></div><div class="ttdeci">Central * central</div><div class="ttdef"><b>Definition</b> housewindow.h:32</div></div>
+<div class="ttc" id="aclass_house_window_html_ab1607fbbb564a55a77d5583a740a3306"><div class="ttname"><a href="class_house_window.html#ab1607fbbb564a55a77d5583a740a3306">HouseWindow::updateAlarm</a></div><div class="ttdeci">void updateAlarm(QString newLabel)</div><div class="ttdef"><b>Definition</b> housewindow.cpp:77</div></div>
+<div class="ttc" id="aclass_house_window_html_ab9f26c02c1741e7b9faae078aaef0826"><div class="ttname"><a href="class_house_window.html#ab9f26c02c1741e7b9faae078aaef0826">HouseWindow::~HouseWindow</a></div><div class="ttdeci">~HouseWindow()</div><div class="ttdef"><b>Definition</b> housewindow.cpp:88</div></div>
+<div class="ttc" id="aclass_house_window_html_afeb317a6f385d9561eb07713d456b9bd"><div class="ttname"><a href="class_house_window.html#afeb317a6f385d9561eb07713d456b9bd">HouseWindow::setCentral</a></div><div class="ttdeci">void setCentral(Central *central)</div><div class="ttdef"><b>Definition</b> housewindow.cpp:44</div></div>
+<div class="ttc" id="anamespace_ui_html"><div class="ttname"><a href="namespace_ui.html">Ui</a></div><div class="ttdef"><b>Definition</b> housewindow.h:12</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.7
+</small></address>
+</body>
+</html>

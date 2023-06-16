@@ -1,0 +1,17 @@
+<map id="Sensor::setClose" name="Sensor::setClose">
+<area shape="rect" id="Node000001" title=" " alt="" coords="719,43,841,69"/>
+<area shape="rect" id="Node000002" href="$class_magnetic_sensor.html#a5ceec404413f6e3520ddbbca2b41fdc1" title=" " alt="" coords="474,5,656,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="704,48,656,42,657,36,705,43"/>
+<area shape="rect" id="Node000007" href="$class_magnetic_sensor.html#ac502781def2eff7748530b0f21099307" title=" " alt="" coords="458,72,671,99"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="705,69,668,74,667,69,704,64"/>
+<area shape="rect" id="Node000003" href="$class_door.html#a7eb5d6571d7eda319e262efc2c61893f" title=" " alt="" coords="271,16,401,43"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="459,31,401,31,401,26,459,25"/>
+<area shape="rect" id="Node000005" href="$class_window.html#a01150b51096d19c88e81ab1edd6ca272" title=" " alt="" coords="262,68,410,95"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="460,54,396,70,394,65,459,49"/>
+<area shape="rect" id="Node000004" href="$class_door_view.html#a9ca2aa9585550b49e08cf32215156e10" title=" " alt="" coords="15,16,204,43"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="257,32,205,32,205,27,257,27"/>
+<area shape="rect" id="Node000006" href="$class_window_view.html#ad1bf6bdfe84dcf011f25261d730e4cc9" title=" " alt="" coords="5,68,214,95"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="247,84,214,84,214,79,247,79"/>
+<area shape="poly" id="edge7_Node000007_Node000003" title=" " alt="" coords="490,71,457,63,391,46,392,41,459,57,491,65"/>
+<area shape="poly" id="edge8_Node000007_Node000005" title=" " alt="" coords="443,86,411,85,411,80,443,81"/>
+</map>

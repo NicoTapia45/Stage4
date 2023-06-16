@@ -1,0 +1,7 @@
+<map id="MagneticSensor::setSensorClose" name="MagneticSensor::setSensorClose">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,188,48"/>
+<area shape="rect" id="Node000002" href="$class_sensor.html#acacc74ce0d13c69a3c72248fb65da51e" title=" " alt="" coords="236,13,357,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,24,221,24,221,29,188,29"/>
+<area shape="rect" id="Node000003" href="$class_sensor.html#ab7230363277330982c3a96821859493a" title=" " alt="" coords="405,13,518,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="357,24,390,24,390,29,357,29"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="HouseWindow::setCentral" name="HouseWindow::setCentral">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,177,57"/>
+<area shape="rect" id="Node000002" href="$class_central.html#a5db18ec0ac455c386758ff4071bdd510" title=" " alt="" coords="243,5,392,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="177,32,228,26,228,31,177,37"/>
+<area shape="rect" id="Node000003" href="$class_house_window.html#ab1607fbbb564a55a77d5583a740a3306" title=" " alt="" coords="225,56,410,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="177,51,210,55,209,60,177,56"/>
+</map>

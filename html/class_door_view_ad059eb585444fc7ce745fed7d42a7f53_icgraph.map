@@ -1,0 +1,5 @@
+<map id="DoorView::installMagneticSensor" name="DoorView::installMagneticSensor">
+<area shape="rect" id="Node000001" title=" " alt="" coords="193,5,364,48"/>
+<area shape="rect" id="Node000002" href="$class_door_view.html#a42fcff1365167f13a52f96d4cde8d01d" title=" " alt="" coords="5,13,145,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="178,29,145,29,145,24,178,24"/>
+</map>

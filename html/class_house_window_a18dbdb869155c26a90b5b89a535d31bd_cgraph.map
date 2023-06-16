@@ -1,0 +1,13 @@
+<map id="HouseWindow::activateSensorClicked" name="HouseWindow::activateSensorClicked">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,23,203,65"/>
+<area shape="rect" id="Node000002" href="$class_central.html#a76f3835048926b3c7a15b0e21ca5ac68" title=" " alt="" coords="253,5,373,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="203,29,238,25,239,30,203,35"/>
+<area shape="rect" id="Node000003" href="$class_central.html#a0e21a755f86da9476aa543cd3958fad4" title=" " alt="" coords="251,56,375,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="203,53,236,57,235,63,203,59"/>
+<area shape="rect" id="Node000004" href="$class_central.html#a5c7be0ff86909135d83e97bf19e77e5b" title=" " alt="" coords="423,56,563,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="375,67,408,67,408,72,375,72"/>
+<area shape="rect" id="Node000005" href="$class_central.html#a6d6decbdb1c66b9b2b34626f93d52b58" title=" " alt="" coords="611,31,785,57"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="563,58,596,54,597,59,564,63"/>
+<area shape="rect" id="Node000006" href="$class_central.html#a5db18ec0ac455c386758ff4071bdd510" title=" " alt="" coords="624,81,772,108"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="564,75,609,81,609,86,563,81"/>
+</map>

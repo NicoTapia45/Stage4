@@ -1,0 +1,13 @@
+<map id="central.h" name="central.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="180,5,252,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,80,75,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,35,85,76,83,71,184,30"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="99,80,165,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="203,35,159,72,155,68,200,31"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="188,80,244,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="219,33,219,65,213,65,213,33"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="268,80,332,107"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="232,31,277,68,273,72,229,35"/>
+<area shape="rect" id="Node000006" href="$sensor_8h.html" title=" " alt="" coords="356,80,428,107"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="248,30,349,71,347,76,246,35"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="HouseWindow::desactivateSensorClicked" name="HouseWindow::desactivateSensorClicked">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,23,183,65"/>
+<area shape="rect" id="Node000002" href="$class_central.html#af9d9bf3e36662a887c742856af0831f5" title=" " alt="" coords="236,5,345,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="183,30,220,25,221,30,183,35"/>
+<area shape="rect" id="Node000003" href="$class_central.html#a76f3835048926b3c7a15b0e21ca5ac68" title=" " alt="" coords="231,56,350,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="183,53,216,57,216,62,183,58"/>
+</map>

@@ -1,0 +1,18 @@
+<map id="WindowView::mousePressEvent" name="WindowView::mousePressEvent">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,85,214,112"/>
+<area shape="rect" id="Node000002" href="$class_window.html#a01150b51096d19c88e81ab1edd6ca272" title=" " alt="" coords="262,85,410,112"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="214,96,247,96,247,101,214,101"/>
+<area shape="rect" id="Node000003" href="$class_window_view.html#a3665d1621ba2e3d974ccee3769ac9395" title=" " alt="" coords="488,5,642,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="363,82,406,62,457,41,483,34,484,39,459,47,409,67,365,87"/>
+<area shape="rect" id="Node000004" href="$class_window_view.html#a585e95ab6bcb4f0fdb412b858a09e687" title=" " alt="" coords="489,56,641,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="410,86,473,78,474,84,411,92"/>
+<area shape="rect" id="Node000005" href="$class_magnetic_sensor.html#a5ceec404413f6e3520ddbbca2b41fdc1" title=" " alt="" coords="474,107,656,149"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="411,106,459,112,458,117,410,111"/>
+<area shape="rect" id="Node000008" href="$class_magnetic_sensor.html#ac502781def2eff7748530b0f21099307" title=" " alt="" coords="458,173,671,200"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="361,110,406,135,459,159,482,166,480,171,457,164,403,140,359,115"/>
+<area shape="rect" id="Node000006" href="$class_sensor.html#acacc74ce0d13c69a3c72248fb65da51e" title=" " alt="" coords="719,144,841,171"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="657,138,705,145,705,150,656,143"/>
+<area shape="rect" id="Node000007" href="$class_sensor.html#ab7230363277330982c3a96821859493a" title=" " alt="" coords="889,144,1002,171"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="841,155,874,155,874,160,841,160"/>
+<area shape="poly" id="edge8_Node000008_Node000006" title=" " alt="" coords="667,170,704,165,705,170,668,175"/>
+</map>

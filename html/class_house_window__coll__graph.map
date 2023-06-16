@@ -1,0 +1,9 @@
+<map id="HouseWindow" name="HouseWindow">
+<area shape="rect" id="Node000001" title=" " alt="" coords="9,492,189,796"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,241,103,311"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="62,324,83,492,78,493,57,325"/>
+<area shape="rect" id="Node000003" href="$class_central.html" title=" " alt="" coords="127,124,261,428"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="158,428,145,476,140,475,153,427"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="163,5,225,75"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="197,89,197,124,191,124,191,89"/>
+</map>

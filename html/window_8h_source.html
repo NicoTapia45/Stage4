@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.7"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Simulador Gráfico en C++ de Alarma Domiciliaria: Archivo de código fuente window.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Simulador Gráfico en C++ de Alarma Domiciliaria
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.7 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">window.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="window_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef WINDOW_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define WINDOW_H</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="magneticsensor_8h.html">magneticsensor.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">class </span><a class="code hl_class" href="class_window_view.html">WindowView</a>;</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="class_window.html">    7</a></span><span class="keyword">class </span><a class="code hl_class" href="class_window.html">Window</a></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>{</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    <a class="code hl_function" href="class_window.html#a74e6087da23d3c24e9fac0245e5ec92c">Window</a>(); <span class="comment">// window creation without sensor is not allowed.</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    <a class="code hl_function" href="class_window.html#a74e6087da23d3c24e9fac0245e5ec92c">Window</a>(<a class="code hl_class" href="class_magnetic_sensor.html">MagneticSensor</a> * sensor, <a class="code hl_class" href="class_window_view.html">WindowView</a> * v);</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_window.html#a01150b51096d19c88e81ab1edd6ca272">changeState</a>();</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="class_window.html#ab4699c37dcbb837c7c8056c5e99c47d9">   15</a></span>    <a class="code hl_class" href="class_magnetic_sensor.html">MagneticSensor</a> * <a class="code hl_variable" href="class_window.html#ab4699c37dcbb837c7c8056c5e99c47d9">magneticSensor</a>;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="class_window.html#ab7e595f2c450ff0a0b226cd32795b4b8">   16</a></span>    <a class="code hl_class" href="class_window_view.html">WindowView</a> * <a class="code hl_variable" href="class_window.html#ab7e595f2c450ff0a0b226cd32795b4b8">view</a>;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="class_window.html#af2b7f2c9b39a80fe3bafc539c542a6c4">   17</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="class_window.html#af2b7f2c9b39a80fe3bafc539c542a6c4">isClose</a>;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>};</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#endif </span><span class="comment">// WINDOW_H</span></div>
+<div class="ttc" id="aclass_magnetic_sensor_html"><div class="ttname"><a href="class_magnetic_sensor.html">MagneticSensor</a></div><div class="ttdef"><b>Definition</b> magnetic_sensor.h:7</div></div>
+<div class="ttc" id="aclass_window_html"><div class="ttname"><a href="class_window.html">Window</a></div><div class="ttdef"><b>Definition</b> window.h:8</div></div>
+<div class="ttc" id="aclass_window_html_a01150b51096d19c88e81ab1edd6ca272"><div class="ttname"><a href="class_window.html#a01150b51096d19c88e81ab1edd6ca272">Window::changeState</a></div><div class="ttdeci">void changeState()</div><div class="ttdef"><b>Definition</b> window.cpp:14</div></div>
+<div class="ttc" id="aclass_window_html_a74e6087da23d3c24e9fac0245e5ec92c"><div class="ttname"><a href="class_window.html#a74e6087da23d3c24e9fac0245e5ec92c">Window::Window</a></div><div class="ttdeci">Window()</div><div class="ttdef"><b>Definition</b> window.cpp:4</div></div>
+<div class="ttc" id="aclass_window_html_ab4699c37dcbb837c7c8056c5e99c47d9"><div class="ttname"><a href="class_window.html#ab4699c37dcbb837c7c8056c5e99c47d9">Window::magneticSensor</a></div><div class="ttdeci">MagneticSensor * magneticSensor</div><div class="ttdef"><b>Definition</b> window.h:15</div></div>
+<div class="ttc" id="aclass_window_html_ab7e595f2c450ff0a0b226cd32795b4b8"><div class="ttname"><a href="class_window.html#ab7e595f2c450ff0a0b226cd32795b4b8">Window::view</a></div><div class="ttdeci">WindowView * view</div><div class="ttdef"><b>Definition</b> window.h:16</div></div>
+<div class="ttc" id="aclass_window_html_af2b7f2c9b39a80fe3bafc539c542a6c4"><div class="ttname"><a href="class_window.html#af2b7f2c9b39a80fe3bafc539c542a6c4">Window::isClose</a></div><div class="ttdeci">bool isClose</div><div class="ttdef"><b>Definition</b> window.h:17</div></div>
+<div class="ttc" id="aclass_window_view_html"><div class="ttname"><a href="class_window_view.html">WindowView</a></div><div class="ttdef"><b>Definition</b> windowview.h:13</div></div>
+<div class="ttc" id="amagneticsensor_8h_html"><div class="ttname"><a href="magneticsensor_8h.html">magneticsensor.h</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.7
+</small></address>
+</body>
+</html>

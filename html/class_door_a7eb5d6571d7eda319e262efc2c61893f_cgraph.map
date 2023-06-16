@@ -1,0 +1,16 @@
+<map id="Door::changeState" name="Door::changeState">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,85,135,112"/>
+<area shape="rect" id="Node000002" href="$class_door_view.html#a42588537201406b2d46fe9bb93949dd6" title=" " alt="" coords="222,5,357,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,82,135,62,182,42,206,34,208,39,184,46,137,66,97,87"/>
+<area shape="rect" id="Node000003" href="$class_door_view.html#a30bb06802a33fd78d61ef6f4a87f3245" title=" " alt="" coords="223,56,356,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="135,87,208,78,208,83,136,93"/>
+<area shape="rect" id="Node000004" href="$class_magnetic_sensor.html#a5ceec404413f6e3520ddbbca2b41fdc1" title=" " alt="" coords="198,107,381,149"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="136,105,184,111,183,116,135,110"/>
+<area shape="rect" id="Node000007" href="$class_magnetic_sensor.html#ac502781def2eff7748530b0f21099307" title=" " alt="" coords="183,173,396,200"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="93,110,134,135,184,159,205,166,203,171,182,164,132,140,90,115"/>
+<area shape="rect" id="Node000005" href="$class_sensor.html#acacc74ce0d13c69a3c72248fb65da51e" title=" " alt="" coords="444,144,565,171"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="381,138,430,145,429,150,380,143"/>
+<area shape="rect" id="Node000006" href="$class_sensor.html#ab7230363277330982c3a96821859493a" title=" " alt="" coords="613,144,727,171"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="566,155,598,155,598,160,566,160"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="392,170,429,165,430,170,392,175"/>
+</map>
